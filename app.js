@@ -53,7 +53,9 @@ app.post("/api/payment", (req, res) => {
 
         paymentMethod,
 
-        paymentStatus: "SUCCESS"
+        paymentStatus: "SUCCESS",
+
+        branch: "main"
 
     });
 
